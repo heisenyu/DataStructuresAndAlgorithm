@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b99983f1-9846-463a-b4e8-8b7cc1bea7c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/chapter01_sparsearray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/chapter01_sparsearray/SparseArray.java" afterDir="false" />
+    <list default="true" id="b99983f1-9846-463a-b4e8-8b7cc1bea7c8" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/bean/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/bean/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/service/CustomerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/service/CustomerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/ui/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/ui/CustomerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/until/CMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/until/CMUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,8 +142,16 @@
       <option name="presentableId" value="Default" />
       <updated>1665194648063</updated>
       <workItem from="1665194655165" duration="311000" />
-      <workItem from="1665196346493" duration="16869000" />
+      <workItem from="1665196346493" duration="17170000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1665392885577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665392885577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,5 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
