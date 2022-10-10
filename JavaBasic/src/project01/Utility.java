@@ -1,27 +1,29 @@
+package Project01;
+
 import java.util.Scanner;
 /**
-Utility¹¤¾ßÀà£º
-½«²»Í¬µÄ¹¦ÄÜ·â×°Îª·½·¨£¬¾ÍÊÇ¿ÉÒÔÖ±½ÓÍ¨¹ıµ÷ÓÃ·½·¨Ê¹ÓÃËüµÄ¹¦ÄÜ£¬¶øÎŞĞè¿¼ÂÇ¾ßÌåµÄ¹¦ÄÜÊµÏÖÏ¸½Ú¡£
-*/
+ Utilityå·¥å…·ç±»ï¼š
+ å°†ä¸åŒçš„åŠŸèƒ½å°è£…ä¸ºæ–¹æ³•ï¼Œå°±æ˜¯å¯ä»¥ç›´æ¥é€šè¿‡è°ƒç”¨æ–¹æ³•ä½¿ç”¨å®ƒçš„åŠŸèƒ½ï¼Œè€Œæ— éœ€è€ƒè™‘å…·ä½“çš„åŠŸèƒ½å®ç°ç»†èŠ‚ã€‚
+ */
 public class Utility {
     private static Scanner scanner = new Scanner(System.in);
     /**
-	ÓÃÓÚ½çÃæ²Ëµ¥µÄÑ¡Ôñ¡£¸Ã·½·¨¶ÁÈ¡¼üÅÌ£¬Èç¹ûÓÃ»§¼üÈë¡¯1¡¯-¡¯4¡¯ÖĞµÄÈÎÒâ×Ö·û£¬Ôò·½·¨·µ»Ø¡£·µ»ØÖµÎªÓÃ»§¼üÈë×Ö·û¡£
-	*/
-	public static char readMenuSelection() {
+     ç”¨äºç•Œé¢èœå•çš„é€‰æ‹©ã€‚è¯¥æ–¹æ³•è¯»å–é”®ç›˜ï¼Œå¦‚æœç”¨æˆ·é”®å…¥â€™1â€™-â€™4â€™ä¸­çš„ä»»æ„å­—ç¬¦ï¼Œåˆ™æ–¹æ³•è¿”å›ã€‚è¿”å›å€¼ä¸ºç”¨æˆ·é”®å…¥å­—ç¬¦ã€‚
+     */
+    public static char readMenuSelection() {
         char c;
         for (; ; ) {
             String str = readKeyBoard(1);
             c = str.charAt(0);
             if (c != '1' && c != '2' && c != '3' && c != '4') {
-                System.out.print("Ñ¡Ôñ´íÎó£¬ÇëÖØĞÂÊäÈë£º");
+                System.out.print("é€‰æ‹©é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼š");
             } else break;
         }
         return c;
     }
-	/**
-	ÓÃÓÚÊÕÈëºÍÖ§³ö½ğ¶îµÄÊäÈë¡£¸Ã·½·¨´Ó¼üÅÌ¶ÁÈ¡Ò»¸ö²»³¬¹ı4Î»³¤¶ÈµÄÕûÊı£¬²¢½«Æä×÷Îª·½·¨µÄ·µ»ØÖµ¡£
-	*/
+    /**
+     ç”¨äºæ”¶å…¥å’Œæ”¯å‡ºé‡‘é¢çš„è¾“å…¥ã€‚è¯¥æ–¹æ³•ä»é”®ç›˜è¯»å–ä¸€ä¸ªä¸è¶…è¿‡4ä½é•¿åº¦çš„æ•´æ•°ï¼Œå¹¶å°†å…¶ä½œä¸ºæ–¹æ³•çš„è¿”å›å€¼ã€‚
+     */
     public static int readNumber() {
         int n;
         for (; ; ) {
@@ -30,22 +32,22 @@ public class Utility {
                 n = Integer.parseInt(str);
                 break;
             } catch (NumberFormatException e) {
-                System.out.print("Êı×ÖÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë£º");
+                System.out.print("æ•°å­—è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼š");
             }
         }
         return n;
     }
-	/**
-	ÓÃÓÚÊÕÈëºÍÖ§³öËµÃ÷µÄÊäÈë¡£¸Ã·½·¨´Ó¼üÅÌ¶ÁÈ¡Ò»¸ö²»³¬¹ı8Î»³¤¶ÈµÄ×Ö·û´®£¬²¢½«Æä×÷Îª·½·¨µÄ·µ»ØÖµ¡£
-	*/
+    /**
+     ç”¨äºæ”¶å…¥å’Œæ”¯å‡ºè¯´æ˜çš„è¾“å…¥ã€‚è¯¥æ–¹æ³•ä»é”®ç›˜è¯»å–ä¸€ä¸ªä¸è¶…è¿‡8ä½é•¿åº¦çš„å­—ç¬¦ä¸²ï¼Œå¹¶å°†å…¶ä½œä¸ºæ–¹æ³•çš„è¿”å›å€¼ã€‚
+     */
     public static String readString() {
         String str = readKeyBoard(8);
         return str;
     }
-	
-	/**
-	ÓÃÓÚÈ·ÈÏÑ¡ÔñµÄÊäÈë¡£¸Ã·½·¨´Ó¼üÅÌ¶ÁÈ¡¡®Y¡¯»ò¡¯N¡¯£¬²¢½«Æä×÷Îª·½·¨µÄ·µ»ØÖµ¡£
-	*/
+
+    /**
+     ç”¨äºç¡®è®¤é€‰æ‹©çš„è¾“å…¥ã€‚è¯¥æ–¹æ³•ä»é”®ç›˜è¯»å–â€˜Yâ€™æˆ–â€™Nâ€™ï¼Œå¹¶å°†å…¶ä½œä¸ºæ–¹æ³•çš„è¿”å›å€¼ã€‚
+     */
     public static char readConfirmSelection() {
         char c;
         for (; ; ) {
@@ -54,20 +56,20 @@ public class Utility {
             if (c == 'Y' || c == 'N') {
                 break;
             } else {
-                System.out.print("Ñ¡Ôñ´íÎó£¬ÇëÖØĞÂÊäÈë£º");
+                System.out.print("é€‰æ‹©é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼š");
             }
         }
         return c;
     }
-	
-	
+
+
     private static String readKeyBoard(int limit) {
         String line = "";
 
         while (scanner.hasNext()) {
             line = scanner.nextLine();
             if (line.length() < 1 || line.length() > limit) {
-                System.out.print("ÊäÈë³¤¶È£¨²»´óÓÚ" + limit + "£©´íÎó£¬ÇëÖØĞÂÊäÈë£º");
+                System.out.print("è¾“å…¥é•¿åº¦ï¼ˆä¸å¤§äº" + limit + "ï¼‰é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼š");
                 continue;
             }
             break;
@@ -76,3 +78,4 @@ public class Utility {
         return line;
     }
 }
+

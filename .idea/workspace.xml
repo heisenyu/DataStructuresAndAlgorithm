@@ -1,31 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b99983f1-9846-463a-b4e8-8b7cc1bea7c8" name="Changes" comment="" />
+    <list default="true" id="b99983f1-9846-463a-b4e8-8b7cc1bea7c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/chapter01_sparsearray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/chapter01_sparsearray/SparseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/FamilyAccount1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project01/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project01/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/bean/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/bean/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/service/CustomerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/service/CustomerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/ui/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/ui/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/project02/until/CMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/project02/until/CMUtility.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../Java/jdk1.8.0_202/src.zip!/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2FpgqTeMT5wbw10cmWqcwm5WN80" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/develop/WorkSpaces/IdeaProjects/DataStructuresAndAlgorithm/JavaBasic/src/project02/until",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\WorkSpaces\IdeaProjects\DataStructuresAndAlgorithm\JavaBasic\src\project02\until" />
+      <recent name="D:\develop\WorkSpaces\IdeaProjects\DataStructuresAndAlgorithm\JavaBasic\src\Project01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomerView">
+    <configuration name="CustomerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project02.service.CustomerList" />
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project02.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project02.ui.CustomerView" />
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project02.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project01.FamilyAccount" />
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyAccount1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project01.FamilyAccount1" />
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01_sparsearray.SparseArray" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomerView" />
+        <item itemvalue="Application.CustomerList" />
+        <item itemvalue="Application.FamilyAccount1" />
+        <item itemvalue="Application.FamilyAccount" />
+        <item itemvalue="Application.SparseArray" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +152,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665194648063</updated>
+      <workItem from="1665194655165" duration="311000" />
+      <workItem from="1665196346493" duration="16869000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
